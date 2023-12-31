@@ -35,6 +35,9 @@
   width:230px;
   height:95px;
 }
+.rel{
+    background-color: #e0e0e0;
+  }
 .center{
   position: absolute;
   top: 50%;
