@@ -196,11 +196,9 @@ text-transform: uppercase;
 .footer{
   width: 100vw;
   height: auto;
-  /* background-color: #ffffff; */
 }
 .footer .subfooter1{
   display: flex;
-  /* justify-content: space-evenly; */
   height: 230px;
   background-color: #000000;
 
@@ -209,14 +207,11 @@ text-transform: uppercase;
   width: 300px;
   height: auto;
   margin-left: 70px;
-  /* background-color: blueviolet; */
 }
 .subfooter1 h2{
   margin-top: 40px;
   color: #ffffff;
   font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-
 }
 .subfooter1 p{
   margin-top: 10px;
@@ -228,7 +223,6 @@ text-transform: uppercase;
 .sections2{
   width: 300px;
   margin-left: 20px;
-  /* background-color: aquamarine; */
 }
 .sections2 .in-sections{
   margin-top: 10px;
