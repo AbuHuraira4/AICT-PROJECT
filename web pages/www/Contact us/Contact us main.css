@@ -156,8 +156,8 @@ text-transform: uppercase;
 .contact-form .send-button{
   border: none;
   outline: none;
-  background:#d7d2d2;
-  font-size: 1rem;
+  background: #000000;
+  font-size: 12px;
   font-weight: 500;
   text-transform:inherit;
   cursor: pointer;
