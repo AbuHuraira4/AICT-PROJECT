@@ -20,7 +20,7 @@
 ul{
   list-style-type: none ;
 }
-/* CSS for header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -165,10 +165,7 @@ text-transform: uppercase;
 .contact-form .send-button:hover{
   background-color: #000000;
   color: #ffffff;
-}
-.contact-form .send-button:hover{
-  background: hsl(181, 100%, 0.8);
-  transition: 0.3s all linear;
+  transition: 0.3s;
 }
 .map iframe{
   width: 100%;
