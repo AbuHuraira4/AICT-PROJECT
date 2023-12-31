@@ -35,6 +35,15 @@
   width:230px;
   height:95px;
 }
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #ffffff;
+}
+
 a:hover{
   background:rgba(0, 170, 160, 150);
   text-transform: uppercase;
