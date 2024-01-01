@@ -35,8 +35,14 @@ text-transform: uppercase;
   margin-left: 30px;
   padding:35px 40px;
 }
-
-
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #ffffff;
+}
 .nav-items {
   display: flex;
   align-items: center;
