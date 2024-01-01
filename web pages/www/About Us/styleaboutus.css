@@ -3,7 +3,7 @@
   border: 0;
   overflow-x: hidden;
 }
-  overflow=.header {
+ .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
