@@ -3,13 +3,6 @@
   border: 0;
   overflow-x: hidden;
 }
-
-.body {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,14 +10,20 @@
   background-color: #000000;
 }
 
-.header .logo1 {
-  
+.header .logo1 { 
   margin-left: 30px;
   padding: 35px 40px;
   background-color: #000000;
   max-width: 100px;
 }
-
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #ffffff;
+}
 .nav-items {
   display: flex;
   justify-content: space-around;
@@ -59,14 +58,6 @@ a:hover{
 .rel {
   background-color: #e0e0e0;
 }
-.center{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  color: #ffffff;
-}
 
 .intro {
   font-size: 15px;
@@ -100,14 +91,11 @@ a:hover{
   justify-content: center;
   align-items: center;
 }
-
-
 .r-of-choosen .work .work-text {
   font-size: 15px;
   color: #000000;
   margin: 10px 0;
 }
-
 .r-of-choosen .work {
   display: flex;
   flex-direction: column;
@@ -115,49 +103,42 @@ a:hover{
   align-items: center;
   padding: 0 35px;
 }
-
 .service {
   background-color: black;
   color: #ffffff;
   padding-top: 20px;
 }
-
-
 .services-container.box {
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 1px 4px 41px #ffffff;
   background-color: #000000;
 }
-
 .heading {
   text-align: center;
   margin-top: 10;
   padding-top: 20px;
 }
-
 .heading span {
   font-weight: 500;
   text-transform: uppercase;
   margin-top: 20;
 }
-
 .heading h1 {
   font-size: 2rem;
   margin-top: 5px;
   padding: 10px;
 }
-
 .container {
   padding: 30px;
   display: grid;
+  /* breaking page to 3 column*/
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   background-color: #000000;
   padding-bottom:20px;
   margin-bottom: 10;  
 }
-
 .card {
   box-shadow: 1px 1px 8px rgb(6, 158, 204);
   display: flex;
@@ -261,8 +242,8 @@ a:hover{
   flex-direction: column;
   align-items: center; 
 }
-.box h3{
 
+.box h3{
   margin-top:30px;
   margin-bottom: 10px;
   text-align: center;
@@ -300,7 +281,6 @@ a:hover{
   margin-top: 10px;
 }
 .sections2 .in-sections p{
-  margin-top: 0;
   font-size: 13px;
   color: #ffffff;
 }
