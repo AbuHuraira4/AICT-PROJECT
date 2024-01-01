@@ -325,6 +325,22 @@
       <p>Copyright © 2021. MADINA ALUMINIUM WORKS – Designed by Ali Raza and Abu Huraira </p>
     </section>
   </footer>
+    <script>
+    // Get all elements with the class 'card'
+    var cards = document.querySelectorAll('.card');
+
+    // Loop through each card element
+    cards.forEach(function (card) {
+      // Adding checker for mouse when mouse is pointed over it
+      card.addEventListener('mouseover', function () {
+        card.classList.add('zoomed');
+      });
+      //Adding checker for mouse when it is moved out of it
+      card.addEventListener('mouseout', function () {
+        card.classList.remove('zoomed');
+      });
+    });
+  </script>
 </body>
 
 </html>
