@@ -1,13 +1,8 @@
-* {
-  margin: 0;
-  border: 0;
-  overflow-x: hidden;
+*{
+overflow-x: hidden;
+margin: 0;
 }
-.body {
-    margin: 0;
-    box-sizing: border-box;
-    
-  }
+
   .logo2 img{
     width:230px;
     height:95px;
@@ -16,11 +11,6 @@
     background:rgba(0, 170, 160, 150);
     text-transform: uppercase;
   }
-
-ul{
-    list-style-type: none ;
-}
-
   .header {
     display: flex;
     justify-content: space-between;
@@ -32,15 +22,6 @@ ul{
   width:230px;
   height:95px;
 }
-.center{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  color: #ffffff;
-}
-
 a:hover{
   background:black;
   text-transform: uppercase;
@@ -53,8 +34,14 @@ a:hover{
     margin-left: 30px;
     padding:35px 40px;
   }
-  
-
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #ffffff;
+  }
   .nav-items {
     display: flex;
     justify-content: space-around;
@@ -62,9 +49,7 @@ a:hover{
     background-color: #000000;
     margin-right: 20px;
   }
-
   .nav-items a {
-    text-decoration: none;
     color:#ffffff;
    padding: 35px 20px;
     margin-right: 30px;
@@ -72,14 +57,11 @@ a:hover{
 .rel{
     background-color: #e0e0e0;
   }
-
 .car-rates{
     width: 100vw;
     height: auto;
     background-color: #e0e0e0;
-    /* background-color: blueviolet; */
     padding-bottom:20px;
-  
 }
 .car-rates h1{
   margin-top: 20px;
@@ -88,18 +70,14 @@ a:hover{
 }
 .car-rates p{
   margin-top: 10px;
-  
-  
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
 .car-rates .rates{
     width: 70%;
     height: 30px;
-    /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
-    /* margin-top: 70px; */
     margin-left: auto;
     margin-right: auto;
     border-bottom: 0.5px solid grey;
@@ -107,61 +85,49 @@ a:hover{
 .car-rates .rates .one{
   width: 40px;
   height:100%;
-  /* background-color: chocolate;  */
 }
 .car-rates .rates .two{
   width: 450px;
   height:100%;
-  /* background-color: rgb(56, 43, 34);  */
-
 }
 .car-rates .rates .three{
   width: 100px;
   height:100%;
-  /* background-color: chocolate;  */
 }
 .car-rates .rates .four{
   width: auto;
   height:100%;
-  /* background-color: green; */
 }
 
 .footer{
   width: 100vw;
   height: auto;
-  /* background-color: #ffffff; */
 }
 .footer .subfooter1{
   display: flex;
-  /* justify-content: space-evenly; */
   height: 230px;
   background-color: #000000;
-
 }
 .sections1{
   width: 300px;
   height: auto;
   margin-left: 70px;
-  /* background-color: blueviolet; */
 }
 .subfooter1 h2{
   margin-top: 40px;
   color: #ffffff;
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
-
 }
 .subfooter1 p{
   margin-top: 10px;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-size: 13px;
-
 }
 .sections2{
   width: 300px;
   margin-left: 20px;
-  /* background-color: aquamarine; */
 }
 .sections2 .in-sections{
   margin-top: 10px;
