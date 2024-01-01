@@ -1,4 +1,7 @@
-  .header {
+* {
+  overflow-x: hidden;
+}
+  overflow=.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
