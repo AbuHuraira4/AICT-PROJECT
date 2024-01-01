@@ -1,35 +1,16 @@
-* {
-  margin: 0;
-  border: 0;
-  overflow-x: hidden;
-}
-
-.body {
-    margin: 0;
-    box-sizing: border-box;
-      
-  }
-
-ul{
-    list-style-type: none ;
-}
-  
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
     border-bottom: 0.1px solid rgb(224, 222, 222);
-  
   }
   .header .logo {
-    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
     color: #ffffff;
-    text-decoration: none;
     margin-left: 30px;
-    padding:35px 40px;
-   
+    padding:35px 40px;   
   }
 
   .nav-items {
@@ -38,12 +19,10 @@ ul{
     align-items: center;
     background-color: #000000;
     margin-right: 20px;
-   
   }
   .logo3 img{
     width:230px;
     height:95px;
-    
   }
   a:hover{
     background:rgba(0, 170, 160, 150);
@@ -55,8 +34,6 @@ ul{
     color:#ffffff;
    padding: 35px 20px;
     margin-right: 30px;
-    
-    
 }
 .rel{
     position: relative;
@@ -76,12 +53,11 @@ ul{
 .aboutus{
     width: 100vw;
     padding-top: 30px;
-     background-color:#e0e0e0; 
+    background-color:#e0e0e0; 
     display: flex;
     justify-content: center;
     gap: 35px;
     padding-bottom: 50px;   
-    
 }
 .aboutus .details{
     width: 35%;
@@ -89,32 +65,27 @@ ul{
    padding-left:20px;
    padding-right: 30px;
    padding-bottom: 20px;
-
 }
 .aboutus .details h1{
+  font-family: 'Montserrat', sans-serif;
     padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     background-color:#e0e0e0 ;
 
 }
 .aboutus .details p{
+  font-family: 'Open Sans', sans-serif;
     padding-top: 15px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     background-color:#e0e0e0;
 }
 
-
 .footer{
     width: 100vw;
     height: auto;
-    
-    /* background-color: #ffffff; */
   }
   .footer .subfooter1{
     display: flex;
-    /* justify-content: space-evenly; */
     height: 230px;
     background-color: #000000;
   
@@ -123,26 +94,22 @@ ul{
     width: 300px;
     height: auto;
     margin-left: 70px;
-    /* background-color: blueviolet; */
   }
   .subfooter1 h2{
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     color: #ffffff;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-  
   }
   .subfooter1 p{
-    margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
     color: white;
     font-size: 13px;
-  
   }
   .sections2{
     width: 300px;
     margin-left: 20px;
-    /* background-color: aquamarine; */
   }
   .sections2 .in-sections{
     margin-top: 10px;
@@ -178,11 +145,11 @@ ul{
     background-color: #000000;
   }
   .footer .subfooter2 p{
+    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     text-align: center;
     padding-top: 8px;
     font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
   }
   .sections4 img{
     width: 50px;
