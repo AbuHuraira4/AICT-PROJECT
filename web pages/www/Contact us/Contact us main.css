@@ -58,6 +58,7 @@ text-transform: uppercase;
 }
 .rel{
   background-color: #e0e0e0;
+  position: relative;
 }
 .welcome {
   font-family: Arial, Helvetica, sans-serif;
