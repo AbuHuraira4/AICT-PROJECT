@@ -199,9 +199,11 @@ a:hover{
   color: white;
   border-radius: 5px;
   font-size: 16px;
+  font-weight: bolder;
   cursor: pointer;
   margin-left: 20px;
   transition: box-shadow 0.5s;
+  text-align: center;
 }
 .card-body .bu:hover {
   box-shadow: 5px 10px 3px #ff5500 ;
