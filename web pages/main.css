@@ -193,7 +193,7 @@ a:hover{
 }
 
 .card-body .bu {
-  
+  text-decoration: none;
   padding: 15px 15px;
   background: #000000;
   color: white;
